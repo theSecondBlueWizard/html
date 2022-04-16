@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="false"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="true"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="true"/>
+<vectornator:setting key="WDSnapToGrid" value="true"/>
+<vectornator:setting key="WDSnapToPoints" value="true"/>
+<vectornator:setting key="WDUnits" value="Pixels"/>
+</metadata>
+<defs>
+<radialGradient cx="214.659" cy="860.332" gradientTransform="matrix(1 0 0 1 0 0)" gradientUnits="userSpaceOnUse" id="RadialGradient" r="1181.19">
+<stop offset="0" stop-color="#6c0013"/>
+<stop offset="0.621901" stop-color="#000000"/>
+<stop offset="1" stop-color="#000000"/>
+</radialGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M5.68434e-14 0L1024 0L1024 1024L5.68434e-14 1024L5.68434e-14 0Z" fill="url(#RadialGradient)" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="0.983066"/>
+<path d="M-209.479 912.331L-205.042 912.331L-205.042 913.218L-209.479 913.218L-209.479 912.331Z" fill="#ffffff" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M172.084 488.245L319.923 319.804L172.084 144.477L124.916 186.297L244.203 319.751L124.916 448.994L172.084 488.245Z" fill="#474747" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="31.513"/>
+<path d="M378.007 404.29L696.159 404.29C696.159 404.29 746.009 403.821 744.86 448.883C743.823 489.559 696.159 486.959 696.159 486.959L378.007 486.959C378.007 486.959 391.834 467.656 391.834 446.989C391.834 426.321 378.007 404.29 378.007 404.29Z" fill="#670000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="33.8108"/>
+<path d="M329.219 445.354C329.219 422.525 349.291 404.019 374.051 404.019C398.811 404.019 418.883 422.525 418.883 445.354C418.883 468.182 398.811 486.688 374.051 486.688C349.291 486.688 329.219 468.182 329.219 445.354Z" fill="#670000" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="33.8108"/>
+<g opacity="1">
+<path d="M339.062 435.125C320.849 435.418 302.465 437.336 284.906 442.344C269.112 446.848 253.601 454.064 241.844 465.781C238.09 469.522 234.766 473.697 232 478.219C228.966 483.179 226.598 488.57 224.625 494.031C220.412 505.692 218.259 518.034 217.781 530.406C217.158 546.54 219.455 562.578 223.562 578.156C232.23 611.029 249.854 642.254 276.25 664.094C291.298 676.544 309.282 686.102 328.75 689C339.657 690.624 350.707 690.126 361.594 688.594C375.628 686.618 389.396 683.124 403.406 681C417.555 678.855 431.997 678.153 446.25 679.688C458.466 681.003 471.992 684.03 481.844 691.812C484.066 693.568 486.065 695.603 487.719 697.906C494.51 707.368 493.091 718.996 488.781 729.188C485.431 737.11 480.528 744.312 475.125 750.969C470.542 756.615 465.591 762.064 460.188 766.938C456.527 770.239 452.61 773.27 448.594 776.125C436.445 784.762 423.219 791.819 409.781 798.219C392.717 806.345 375.116 813.341 357.344 819.75C330.098 829.575 302.351 838.003 274.406 845.594C254.617 850.969 234.718 856.075 214.656 860.344C233.806 856.723 252.824 852.321 271.75 847.688C301.562 840.389 331.145 832.098 360.25 822.344C378.8 816.127 397.148 809.188 414.938 801.031C429.425 794.389 443.697 786.919 456.594 777.5C465.934 770.678 474.263 762.44 481.625 753.531C487.735 746.137 493.236 738.064 496.75 729.094C500.517 719.479 501.709 708.68 497.594 698.969C496.57 696.552 495.243 694.238 493.688 692.125C491.808 689.572 489.592 687.276 487.156 685.25C476.175 676.117 461.263 672.161 447.375 670.312C430.294 668.038 413.009 668.84 396 671.312C378.987 673.786 361.973 677.965 344.688 677.781C337.381 677.704 330.092 676.737 323.062 674.719C310.877 671.22 299.748 664.669 289.875 656.812C276.893 646.482 266.456 633.309 258.125 619.031C243.33 593.677 234.937 564.547 235.906 535.094C236.31 522.803 238.446 510.464 243.062 499.031C245.991 491.779 249.833 485.103 255.469 479.625C265.597 469.78 279.343 464.277 292.844 460.906C308.745 456.935 325.238 455.581 341.594 455.594C347.854 455.598 354.13 455.839 360.375 456.281C363.727 456.518 367.107 456.75 370.438 457.219C376.123 457.947 381.303 453.936 382.031 448.25C382.759 442.564 378.749 437.353 373.062 436.625C368.506 436.056 363.896 435.744 359.312 435.5C352.561 435.141 345.822 435.016 339.062 435.125Z" fill="#000000" fill-opacity="0.994601" stroke="none"/>
+</g>
+</g>
+</svg>

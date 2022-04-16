@@ -1,0 +1,105 @@
+@font-face {
+	font-family: Comic;
+	src: url(ComicNeue-Regular.woff2);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: rgb(255, 255, 255);
+		color: rgb(0, 0, 0);
+		font-family: Comic;
+	}
+
+	:root {
+		--white-shadow: rgba(255, 255, 255, 0.6);
+		--dark-shadow: rgba(0, 0, 0, 0.6);
+		--section-bg: rgb(196, 196, 196);
+		--text-color: rgb(0, 0, 0);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: rgb(47, 31, 0);
+		color: grey;
+		font-family: Comic;
+	}
+	
+	:root {
+		--white-shadow: rgba(147, 131, 100, 0.4);
+		--dark-shadow: rgba(0, 0, 0, 0.6);
+		--section-bg: rgba(0, 0, 0, 0.1);
+		--text-color: grey;
+	}
+}
+
+.projectList ul {
+	padding: 10px;
+	border-radius: 10vw;
+	background-color: var(--section-bg);
+
+	
+	display: flex;
+	overflow-x: scroll;
+	
+	scroll-padding: 0 0%;
+	scroll-snap-type: x mandatory;
+}
+
+.projectList li {
+	list-style: none;
+	display: inline-block;
+
+	margin: 1vh;
+	scroll-snap-align: center;
+	height: 10%;
+}
+.projectList li p {
+	text-align: center;
+}
+
+.projectName {
+	font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.shadow {
+	transition: filter 300 ms;
+	height: 45vh;
+}
+.projectList li img {
+	border-radius: 20%;
+	box-shadow: -1px -1px 3px var(--white-shadow), 1px 1px 3px var(--dark-shadow);
+	width: 40vw;
+	max-width: 40vh;
+}
+
+.shadow:hover {
+	transition: filter 300ms;
+	filter: blur(3px);
+	border-radius: 20%;
+}
+
+.contactBar ul {
+	display: flex;
+	overflow-x: scroll;
+	
+	scroll-padding: 0 50%;
+	scroll-snap-type: x mandatory;
+}
+
+.contactBar li {
+	list-style: none;
+	display: inline-block;
+	margin: auto;
+}
+
+.contactBar li a {
+	text-decoration: none;
+	font-size: 16;
+	color: var(--text-color)
+}

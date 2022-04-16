@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 1024 1024" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="true"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="true"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="true"/>
+<vectornator:setting key="WDUnits" value="Pixels"/>
+</metadata>
+<defs>
+<linearGradient gradientTransform="matrix(21.3333 0 0 21.3333 -36.3748 -55.4715)" gradientUnits="userSpaceOnUse" id="LinearGradient" x1="13.9181" x2="29.5753" y1="19.0947" y2="41.7612">
+<stop offset="0" stop-color="#229200"/>
+<stop offset="1" stop-color="#155c00"/>
+<stop offset="1" stop-color="#204b00"/>
+</linearGradient>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="1024" width="1024" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Bg" vectornator:layerName="Bg">
+<path d="M0-6.66134e-16L1024-6.66134e-16L1024 1024L0 1024L0-6.66134e-16Z" fill="#925600" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+<g id="Snek-body" vectornator:layerName="Snek body">
+<path d="M352.58 190.128C440.901 193.097 523.972 154.129 614.454 216.849C704.937 279.569 727.344 345.487 681.331 439.011C635.317 532.534 473.538 498.61 439.569 604.752C405.599 710.894 601.484 863.721 578.632 865.577C555.78 867.432 372.157 715.775 374.627 608.149C377.098 500.522 572.278 506.813 625.703 429.99C679.128 353.167 655.008 334.676 592.627 287.914C530.247 241.152 411.873 269.549 338.992 248.024C266.112 226.498 257.774 219.447 261.171 204.973C264.568 190.499 264.26 187.159 352.58 190.128Z" fill="url(#LinearGradient)" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="22.8119"/>
+<path d="M341.382 227.181C341.382 227.181 355.641 215.064 368.982 216.166C382.323 217.267 400.07 234.127 400.07 234.127C400.07 234.127 384.771 226.569 371.43 225.468C358.089 224.366 341.382 227.181 341.382 227.181Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.994601" stroke-width="9.84188"/>
+<path d="M458.974 193.162C458.974 193.162 467.803 191.771 476.366 191.421C484.929 191.07 485.536 190.71 494.907 190.764C504.278 190.818 513.85 191.636 513.85 191.636L485.561 231.749L458.974 193.162Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M538.454 195.177C538.454 195.177 557.768 197.37 567.529 201.31C577.29 205.251 595.218 216.537 595.218 216.537L561.153 243.66L538.454 195.177Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M617.29 231.837C617.29 231.837 631.872 242.274 638.564 248.188C645.256 254.102 653.281 262.831 653.281 262.831L621.974 267.056L617.29 231.837Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M674.494 289.415C674.494 289.415 683.001 300.195 687.094 310.511C691.187 320.826 692.691 332.894 692.691 332.894L665.033 320.557L674.494 289.415Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M692.991 370.856C692.991 370.856 691.093 384.343 688.034 395.25C684.975 406.156 680.754 414.482 680.754 414.482L674.409 393.168L692.991 370.856Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M623.489 449.203C623.489 449.203 613.59 458.262 605.472 463.696C597.353 469.131 586.375 475.723 586.375 475.723L615.117 476.25L623.489 449.203Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M561.165 504.811L524.112 511.035L484.451 535.885C484.451 535.885 501.715 526.555 520.902 518.592C540.089 510.63 561.165 504.811 561.165 504.811Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M451.602 561.966L409.892 592.852L425.278 632.871C425.278 632.871 426.025 610.181 432.779 592.647C439.532 575.112 451.602 561.966 451.602 561.966Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+<path d="M392.332 650.566L418.777 681.12C418.777 681.12 443.914 729.735 442.107 732.256C440.299 734.778 423.992 711.63 411.548 691.207C399.105 670.784 392.332 650.566 392.332 650.566Z" fill="#0e3d00" fill-rule="evenodd" opacity="1" stroke="none"/>
+</g>
+</svg>
