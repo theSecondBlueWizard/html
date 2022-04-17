@@ -120,6 +120,7 @@ header ul li :hover {
 .projectList {
 	margin: 1%;
 	border-radius: 40px;
+	-webkit-border-radius: 40px;
 	padding-bottom: 10px;
 	background-color: var(--section-bg);
 }
