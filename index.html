@@ -11,8 +11,7 @@
 			<link rel = "icon"              href = "/favicon.ico"           sizes = "any">
 			<link rel = "apple-touch-icon"  href = "/apple-touch-icon.png">
 			<link rel = "manifest"          href = "/manifest.json">
-	</head>
-
+		</head>
 	<body>
 		<header>
 			<img src="icon.svg" alt="The wizard hat logo">
@@ -27,14 +26,22 @@
 				</ul>
 			</nav>
 		</header>
-		<p style="margin: 60px; font-size: 60px;"> 
-			Hiya!!!!
-		</p>
-		<p style="padding: 20px; font-size: 40px">
-			I'm Alex, CS student at Trinity College Dublin. Here are some of my projects!
-		</p>
+
+		<div class="me">
+			<ul>
+				<li>
+					<p style="margin: 60px; font-size: 60px;"> 
+						Hiya!!!!
+					</p>
+					<p style="padding: 20px; font-size: 40px">
+						I'm Alex, CS student at Trinity College Dublin. Here are some of my projects!
+					</p>
+				</li>
+
+			</ul>
+		</div>
 		<div class="projectList">
-			 <ul>
+			 <ul id="listOfProjects">
 				<li>
 					<a href = "Roy/index.html">
 						<div class = "shadow">
@@ -44,7 +51,9 @@
 					<div class = "projectName">
 						Roy
 					</div>
-
+					<div class="projectDescription" id="roy">
+						A colour lookup tools designed for artists and designers set to release in late May 2022
+					</div>
 				</li>
 				<li>
 					<div class = "shadow">
@@ -53,13 +62,21 @@
 					<div class = "projectName">
 						Frank
 					</div>
+					<div class="projectDescription" id="frank">
+						A text editor width no state preservation because quite frankly, sometimes that's all you need. September 2022
+					</div>
 				</li>
 				<li>
 					<div class = "shadow">
-						<img src = "Mine Terminator.svg" alt = "Mine terminator logo - a stick of synamite in the comand line">
+						<a href="https://github.com/theSecondBlueWizard/MineTerminator">
+							<img src = "Mine Terminator.svg" alt = "Mine terminator logo - a stick of synamite in the comand line">
+						</a>
 					</div>
 					<div class = "projectName">
 						Mine Terminator
+					</div>
+					<div class="projectDescription" id="mine">
+						A product of failing to fall asleep, just like this site. Text-based mine sweeper clone written in java
 					</div>
 				</li>
 				<li>
@@ -71,9 +88,20 @@
 					<div class = "projectName">
 						Zenith
 					</div>
+					<div class = "projectDescription" id="zenith">
+						A group project from college - a spaceflight database written in processing in which I had a small part
+					</div>
 				</li>
 			</ul>
 		</div>
+		
+		<p style="padding: 20px; font-size: 40px">
+			General experience includes: Java, Python, Swift, HTML and CSS. I'd love to
+			<br><br>
+			I'm looking for internships or summer jobs. If anything comes up, please reach out!
+			<br><br>
+		</p>
+
 		<footer>
 			<div class = "contactBar">
 				<ul>
@@ -88,7 +116,12 @@
 							github
 						</a>
 					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/alexander-mitrokhin-b0a60b220/">
+							linkedin
+						</a>
+					</li>
 			</div>
 		</footer>
-	</body>
+	</body>	
 </html>
