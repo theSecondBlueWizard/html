@@ -3,7 +3,10 @@
 	src: url(ComicNeue-Regular.woff2);
 }
 
-
+* {
+	margin: 0;
+	padding: 0;
+}
 
 @media (prefers-color-scheme: light) {
 	body {
@@ -20,7 +23,7 @@
 	}
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	body {
 		background-color: rgb(47, 31, 0);
 		color: grey;
@@ -35,16 +38,63 @@
 	}
 }
 
+header {
+	background-color: var(--section-bg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: auto;
+	height: auto;
+
+	text-decoration: none;
+	font-size: 40px;
+}
+
+header img {
+	height: 80px;
+}
+
+header ul {
+	padding: 10px;
+	list-style: none;
+}
+header ul li {
+	display: inline-block;
+	padding: 0px, 20px;
+	color: var(--text-color)
+}
+
+header ul li a {
+	transition: all 300ms;
+	color: var(--text-color);
+}
+
+header ul li :hover {
+	transition: all 300ms;
+	color: rgb(70, 0, 119);
+}
+
+.projectList {
+	padding: 10px;
+}
+.projectList ul element {
+	overflow: -moz-scrollbars-none;
+}
+
+.projectList ul element::-webkit-scrollbar {
+	width: 0 !important;
+	display: none;
+}
+
 .projectList ul {
 	padding: 10px;
-	border-radius: 10vw;
+	border-radius: 20px;
 	background-color: var(--section-bg);
 
-	
 	display: flex;
-	overflow-x: scroll;
+	overflow: hidden;
 	
-	scroll-padding: 0 0%;
+	scroll-padding: 0 50%;
 	scroll-snap-type: x mandatory;
 }
 
@@ -52,24 +102,16 @@
 	list-style: none;
 	display: inline-block;
 
-	margin: 1vh;
+	margin: 1%;
 	scroll-snap-align: center;
-	height: 10%;
-}
-.projectList li p {
-	text-align: center;
 }
 
 .projectName {
-	font-weight: bold;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 150%;
 }
 .shadow {
 	transition: filter 300 ms;
-	height: 45vh;
 }
 .projectList li img {
 	border-radius: 20%;
@@ -78,15 +120,27 @@
 	max-width: 40vh;
 }
 
-.shadow:hover {
+.shadow :hover {
 	transition: filter 300ms;
 	filter: blur(3px);
 	border-radius: 20%;
 }
 
+footer {
+	grid-area: footer;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height:auto;
+}
+
+.contactBar {
+	background-color: var(--section-bg);
+	width: 100%;
+}
+
 .contactBar ul {
 	display: flex;
-	overflow-x: scroll;
 	
 	scroll-padding: 0 50%;
 	scroll-snap-type: x mandatory;
@@ -100,6 +154,11 @@
 
 .contactBar li a {
 	text-decoration: none;
-	font-size: 16;
-	color: var(--text-color)
+	color: var(--text-color);
+	margin: 10px;
+	font-size: 40px;
+}
+.contactBar li a:hover {
+	transition: color 300ms;
+	color: rgb(70, 0, 119);
 }
