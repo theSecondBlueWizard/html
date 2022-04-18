@@ -104,17 +104,8 @@ header ul li :hover {
 }
 
 .me img {
-	position: relative;
+	padding-top: 40px;
 	height: 50vh;
-	border-radius: 40px;
-	box-shadow: -1px -1px 3px var(--white-shadow), 1px 1px 3px var(--dark-shadow);
-}
-
-
-.selfie :hover {
-	transition: all 300ms;
-	filter: blur(3px) brightness(0.4);
-	color: var(--text-color);
 }
 
 .projectList {
@@ -168,18 +159,18 @@ header ul li :hover {
 	scroll-snap-align: center;
 }
 
-.projectName {
+.projectList .projectName {
 	text-align: center;
 	font-size: 40px;
 }
 
-.projectDescription {
+.projectList .projectDescription {
 	text-align: center;
 	width: 40vw;
 	max-width: 40vh;
 }
 
-.shadow {
+.projectList .shadow {
 	transition: all 300ms;
 }
 .projectList li img {
@@ -189,7 +180,7 @@ header ul li :hover {
 	max-width: 40vh;
 }
 
-.shadow :hover {
+.projectList .shadow :hover {
 	transition: all 300ms;
 	filter: blur(3px);
 }
