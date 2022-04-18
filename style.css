@@ -35,6 +35,12 @@
 		--section-bg: rgb(196, 196, 196);
 		--text-color: rgb(0, 0, 0);
 	}
+
+	.me img {
+		float:right;
+		position: relative;
+		right: 0;
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -42,6 +48,12 @@
 		background-color: rgb(47, 31, 0);
 		color: grey;
 		font-family: Comic;
+	}
+
+	.me img {
+		float:right;
+		filter: sepia(0.6) brightness(0.7);
+		right: 0;
 	}
 	
 	:root {
@@ -74,6 +86,7 @@ header img:hover {
 }
 
 header ul {
+	text-align: right;
 	padding: 10px;
 	list-style: none;
 }
@@ -95,10 +108,22 @@ header ul li :hover {
 }
 
 .me {
+	width: 100vw;
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content:right;
 	align-items: center;
 	overflow: hidden;
+	display: flex;
+}
+.me h1 {
+	font-size: 60px;
+	font-weight: 100;
+}
+
+.me h2 {
+	font-size: 40px;
+	font-weight: 100;
 }
 
 .me ul{
@@ -110,12 +135,7 @@ header ul li :hover {
 	display: inline-block;
 }
 
-.me img {
-	height: 400px;
-	padding-top: 40px;
-	position: relative;
-	right: 0;
-}
+
 
 .projectList {
 	margin: 1%;
@@ -231,6 +251,7 @@ footer {
 	width: 100%;
 	display: flex;
 	justify-content:center;
+	text-align: right;
 }
 
 .contactBar li {
