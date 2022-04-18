@@ -181,10 +181,10 @@ header ul li :hover {
 	transition: all 300ms;
 }
 .projectList li img {
-	border-radius: 20%;
-	box-shadow: -3px -3px 3px var(--white-shadow), 3px 3px 3px var(--dark-shadow);
 	width: 40vw;
 	max-width: 40vh;
+	border-radius: 20%;
+	box-shadow: -3px -3px 3px var(--white-shadow), 3px 3px 3px var(--dark-shadow);
 }
 
 .projectList .shadow :hover {
