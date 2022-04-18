@@ -116,9 +116,7 @@ header ul li :hover {
 	border-radius: 40px;
 	padding-bottom: 10px;
 	background-color: var(--section-bg);
-}
-.projectList ul element {
-	overflow: -moz-scrollbars-none;
+	overflow: hidden;
 }
 
 .projectList ::-webkit-scrollbar {
